@@ -1,0 +1,26 @@
+{
+  "name": "bigrandom",
+  "version": "1.0.0",
+  "description": "Generate 128 bit random numbers for use as unique ids.",
+  "main": "lib/bigrandom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srguiwiz/bigrandom.git"
+  },
+  "keywords": [
+    "random",
+    "guid"
+  ],
+  "author": "Leo Baschy",
+  "license": "New BSD",
+  "bugs": {
+    "url": "https://github.com/srguiwiz/bigrandom/issues"
+  },
+  "homepage": "https://github.com/srguiwiz/bigrandom",
+  "dependencies": {
+    "MD5": "^1.2.1"
+  }
+}
