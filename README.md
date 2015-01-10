@@ -7,5 +7,5 @@ bigrandom = require('bigrandom');
 var random128bitHexString = bigrandom();
 ```
 
-For Node.js at (https://www.npmjs.com/package/bigrandom) .
+For Node.js at https://www.npmjs.com/package/bigrandom .
 
