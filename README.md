@@ -6,16 +6,24 @@ For Node.js at https://www.npmjs.com/package/bigrandom .
 
 ## Use
 
+Simple example:
+
 ```
 bigrandom = require('bigrandom');
 
 var random128bitHexString = bigrandom();
 ```
 
-For more entropy, anything can be passed in as salt.
+For more entropy, anything can be passed in as salt:
 
 ```
 var moreRandom128bitHexString = bigrandom([req.headers, req.body]);
+```
+
+Example result:
+
+```
+"fa3f25fcd6a415285bc079c1924cbfdc"
 ```
 
 ## Desgin goals
