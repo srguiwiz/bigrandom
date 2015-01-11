@@ -1,6 +1,6 @@
 {
   "name": "bigrandom",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate 128 bit random numbers for use as unique ids.",
   "main": "lib/bigrandom.js",
   "scripts": {
