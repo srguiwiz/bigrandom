@@ -9,7 +9,7 @@ For Node.js at https://www.npmjs.com/package/bigrandom .
 Simple example:
 
 ```
-bigrandom = require('bigrandom');
+var bigrandom = require('bigrandom');
 
 var random128bitHexString = bigrandom();
 ```
